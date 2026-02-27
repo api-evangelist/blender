@@ -1,0 +1,75 @@
+name: Blender
+description: Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation.
+image: https://www.blender.org/wp-content/uploads/2019/07/blender_logo_socket.png
+tags:
+- 3D
+- Animation
+- Modeling
+- Rendering
+- Open Source
+- VFX
+- Game Development
+created: '2024'
+modified: '2024'
+url: https://www.blender.org
+specificationVersion: '0.18'
+apis:
+- name: Blender Python API
+  description: Python API for scripting and extending Blender functionality, allowing automation, tool creation, and addon development
+  image: https://www.blender.org/wp-content/uploads/2019/07/blender_logo_socket.png
+  humanURL: https://www.blender.org/
+  baseURL: https://docs.blender.org/api/current/
+  tags:
+  - Python
+  - Scripting
+  - Automation
+  - Addons
+  properties:
+  - type: Documentation
+    url: https://docs.blender.org/api/current/
+  - type: API Reference
+    url: https://docs.blender.org/api/current/info_api_reference.html
+  - type: Examples
+    url: https://docs.blender.org/api/current/info_quickstart.html
+  - type: GitHub
+    url: https://github.com/blender/blender
+  contact:
+  - FN: Blender Foundation
+    email: bf-committers@blender.org
+    url: https://www.blender.org/about/
+- name: Blender Add-on API
+  description: API for creating and distributing Blender add-ons and extensions
+  image: https://www.blender.org/wp-content/uploads/2019/07/blender_logo_socket.png
+  humanURL: https://www.blender.org/
+  baseURL: https://docs.blender.org/api/current/
+  tags:
+  - Extensions
+  - Plugins
+  - Add-ons
+  properties:
+  - type: Documentation
+    url: https://docs.blender.org/manual/en/latest/advanced/extensions/addons.html
+  - type: Tutorial
+    url: https://docs.blender.org/api/current/info_tutorial_addon.html
+maintainers:
+- FN: Blender Foundation
+  email: foundation@blender.org
+  url: https://www.blender.org/about/foundation/
+include: []
+common:
+- type: Website
+  url: https://www.blender.org/
+- type: Download
+  url: https://www.blender.org/download/
+- type: Community
+  url: https://www.blender.org/community/
+- type: Support
+  url: https://www.blender.org/support/
+- type: GitHub Organization
+  url: https://github.com/blender
+- type: Developer Portal
+  url: https://developer.blender.org/
+- type: Blog
+  url: https://www.blender.org/news/
+- type: Forums
+  url: https://devtalk.blender.org/

@@ -9,11 +9,11 @@ image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - 3D
   - Animation
-  - Modeling
-  - Rendering
-  - Open Source
-  - VFX
   - Game Development
+  - Modeling
+  - Open Source
+  - Rendering
+  - VFX
 url: >-
   https://raw.githubusercontent.com/api-evangelist/blender/refs/heads/main/apis.yml
 created: '2024-01-01'
@@ -27,10 +27,10 @@ apis:
       automation, tool creation, and addon development.
     humanURL: https://docs.blender.org/api/current/
     tags:
+      - Addons
+      - Automation
       - Python
       - Scripting
-      - Automation
-      - Addons
     properties:
       - type: Documentation
         url: https://docs.blender.org/api/current/

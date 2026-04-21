@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/blender/main/json-schema/blender-addon-manifest-schema.json",
+  "title": "Blender Addon Manifest",
+  "description": "Schema for a Blender addon extension manifest (blender_manifest.toml equivalent in JSON)",
+  "type": "object",
+  "properties": {
+    "schema_version": { "type": "string", "description": "Manifest schema version", "example": "1.0.0" },
+    "id": { "type": "string", "description": "Unique addon ID (lowercase, underscores)", "pattern": "^[a-z][a-z0-9_]*$" },
+    "name": { "type": "string", "description": "Human-readable addon display name" },
+    "version": { "type": "string", "description": "Addon version (semver)", "example": "1.2.0" },
+    "tagline": { "type": "string", "maxLength": 64, "description": "Short one-line description" },
+    "maintainer": { "type": "string", "description": "Maintainer name and email" },
+    "type": { "type": "string", "enum": ["add-on", "theme"], "description": "Extension type" },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Category tags for the Extensions Platform"
+    },
+    "blender_version_min": { "type": "string", "description": "Minimum supported Blender version", "example": "4.0.0" },
+    "blender_version_max": { "type": "string", "description": "Maximum tested Blender version" },
+    "license": { "type": "array", "items": { "type": "string" }, "description": "SPDX license identifiers" },
+    "website": { "type": "string", "format": "uri" }
+  },
+  "required": ["schema_version", "id", "name", "version", "type", "blender_version_min"]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Blender Addon Manifest Structure",
+  "description": "JSON structure for a Blender addon/extension manifest",
+  "fields": [
+    { "name": "schema_version", "type": "string", "required": true },
+    { "name": "id", "type": "string", "required": true, "description": "Lowercase underscore addon ID" },
+    { "name": "name", "type": "string", "required": true },
+    { "name": "version", "type": "string", "required": true, "description": "Semver version string" },
+    { "name": "tagline", "type": "string", "required": false, "description": "Max 64 character description" },
+    { "name": "maintainer", "type": "string", "required": false },
+    { "name": "type", "type": "enum[add-on,theme]", "required": true },
+    { "name": "tags", "type": "array<string>", "required": false },
+    { "name": "blender_version_min", "type": "string", "required": true },
+    { "name": "blender_version_max", "type": "string", "required": false },
+    { "name": "license", "type": "array<string>", "required": false },
+    { "name": "website", "type": "uri", "required": false }
+  ]
+}

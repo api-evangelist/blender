@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "id": "node_wrangler",
+  "name": "Node Wrangler",
+  "version": "3.6.10",
+  "tagline": "Various tools to enhance and speed up node-based workflow",
+  "maintainer": "Blender Foundation <foundation@blender.org>",
+  "type": "add-on",
+  "tags": ["Node"],
+  "blender_version_min": "4.0.0",
+  "license": ["SPDX:GPL-2.0-or-later"],
+  "website": "https://extensions.blender.org/add-ons/node-wrangler/"
+}

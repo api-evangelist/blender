@@ -21,7 +21,7 @@ tags:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/blender/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-04-19'
+modified: '2026-04-21'
 specificationVersion: '0.19'
 apis:
   - aid: blender:blender-python-api
@@ -49,6 +49,20 @@ apis:
         url: https://docs.blender.org/api/current/info_quickstart.html
       - type: Tutorials
         url: https://docs.blender.org/api/current/info_tips_and_tricks.html
+      - type: JSONSchema
+        url: json-schema/blender-addon-manifest-schema.json
+      - type: JSONSchema
+        url: json-schema/blender-bpy-operator-schema.json
+      - type: JSONStructure
+        url: json-structure/blender-addon-manifest-structure.json
+      - type: JSONStructure
+        url: json-structure/blender-bpy-operator-structure.json
+      - type: JSONLD
+        url: json-ld/blender-context.jsonld
+      - type: Example
+        url: examples/blender-addon-manifest-example.json
+      - type: Example
+        url: examples/blender-bpy-operator-example.json
   - aid: blender:blender-extensions
     name: Blender Extensions Platform
     description: >-
@@ -90,6 +104,17 @@ common:
     url: https://www.blender.org/support/faq/
   - type: ReleaseNotes
     url: https://developer.blender.org/docs/release_notes/
+  - type: License
+    url: https://www.blender.org/about/license/
+    title: GPL-2.0-or-later
+  - type: PackageRegistry
+    url: https://extensions.blender.org
+  - type: SpectralRules
+    url: rules/blender-spectral-rules.yml
+  - type: NaftikoCapability
+    url: capabilities/blender-python-api.yaml
+  - type: Vocabulary
+    url: vocabulary/blender-vocabulary.yaml
   - type: Features
     data:
       - name: Python Scripting (bpy)

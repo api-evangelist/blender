@@ -1,0 +1,27 @@
+{
+  "bl_idname": "object.transform_apply",
+  "bl_label": "Apply Transform",
+  "bl_description": "Apply the object's transformation to its data",
+  "bl_options": ["REGISTER", "UNDO"],
+  "poll": "context.selected_objects",
+  "properties": [
+    {
+      "name": "location",
+      "type": "BoolProperty",
+      "default": false,
+      "description": "Apply location transform"
+    },
+    {
+      "name": "rotation",
+      "type": "BoolProperty",
+      "default": false,
+      "description": "Apply rotation transform"
+    },
+    {
+      "name": "scale",
+      "type": "BoolProperty",
+      "default": false,
+      "description": "Apply scale transform"
+    }
+  ]
+}

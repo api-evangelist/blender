@@ -1,0 +1,42 @@
+rules:
+  blender-addon-id-format:
+    description: Addon ID must be lowercase with underscores only
+    message: "Addon ID must match pattern ^[a-z][a-z0-9_]*$"
+    given: "$.components.schemas.AddonManifest.properties.id"
+    then:
+      field: pattern
+      function: truthy
+
+  blender-version-semver:
+    description: Blender addon version must follow semantic versioning
+    message: "Version field should describe semver format"
+    given: "$.components.schemas.AddonManifest.properties.version"
+    then:
+      field: description
+      function: truthy
+
+  blender-operator-idname-format:
+    description: Operator bl_idname must use category.name format
+    message: "bl_idname must match pattern ^[a-z_]+\\.[a-z_]+$"
+    given: "$.components.schemas.BpyOperator.properties.bl_idname"
+    then:
+      field: pattern
+      function: truthy
+
+  blender-tags-present:
+    description: Addon manifest should include category tags
+    message: "Addon should specify at least one tag for discovery"
+    given: "$.components.schemas.AddonManifest.properties.tags"
+    then:
+      field: type
+      function: pattern
+      functionOptions:
+        match: "^array$"
+
+  blender-license-spdx:
+    description: License identifiers should use SPDX format
+    message: "License should use SPDX identifier format"
+    given: "$.components.schemas.AddonManifest.properties.license"
+    then:
+      field: description
+      function: truthy

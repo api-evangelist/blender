@@ -1,0 +1,12 @@
+{
+  "name": "Blender bpy Operator Structure",
+  "description": "JSON structure for a Blender Python API operator definition",
+  "fields": [
+    { "name": "bl_idname", "type": "string", "required": true, "description": "category.name format" },
+    { "name": "bl_label", "type": "string", "required": true },
+    { "name": "bl_description", "type": "string", "required": false },
+    { "name": "bl_options", "type": "array<string>", "required": false },
+    { "name": "poll", "type": "string", "required": false },
+    { "name": "properties", "type": "array<OperatorProperty>", "required": false }
+  ]
+}

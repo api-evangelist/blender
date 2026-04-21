@@ -3,6 +3,8 @@ Blender is the free and open source 3D creation suite supporting the entirety of
 
 **URL:** [https://www.blender.org](https://www.blender.org)
 
+**License:** [GPL-2.0-or-later](https://www.blender.org/about/license/)
+
 **Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
 
 ## Tags:
@@ -12,7 +14,7 @@ Blender is the free and open source 3D creation suite supporting the entirety of
 ## Timestamps
 
 - **Created:** 2024-01-01
-- **Modified:** 2026-04-19
+- **Modified:** 2026-04-21
 
 ## APIs
 
@@ -31,6 +33,11 @@ The Blender Python API (bpy) provides Python access to Blender's internal data, 
 - [GitHub](https://github.com/blender/blender)
 - [Getting Started](https://docs.blender.org/api/current/info_quickstart.html)
 - [Tutorials](https://docs.blender.org/api/current/info_tips_and_tricks.html)
+- [JSON Schema - Addon Manifest](json-schema/blender-addon-manifest-schema.json)
+- [JSON Schema - bpy Operator](json-schema/blender-bpy-operator-schema.json)
+- [JSON-LD Context](json-ld/blender-context.jsonld)
+- [Example - Addon Manifest](examples/blender-addon-manifest-example.json)
+- [Example - bpy Operator](examples/blender-bpy-operator-example.json)
 
 ### Blender Extensions Platform
 The Blender Extensions Platform (extensions.blender.org) provides a curated repository of addons, themes, and node presets for Blender. Developers can publish addons with structured metadata and versioning.
@@ -59,6 +66,10 @@ The Blender Extensions Platform (extensions.blender.org) provides a curated repo
 - [Training](https://www.blender.org/training/)
 - [FAQ](https://www.blender.org/support/faq/)
 - [Release Notes](https://developer.blender.org/docs/release_notes/)
+- [Package Registry](https://extensions.blender.org)
+- [Spectral Rules](rules/blender-spectral-rules.yml)
+- [Naftiko Capability](capabilities/blender-python-api.yaml)
+- [Vocabulary](vocabulary/blender-vocabulary.yaml)
 
 ## Features
 

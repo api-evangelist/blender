@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/blender/main/json-schema/blender-bpy-operator-schema.json",
+  "title": "Blender bpy Operator",
+  "description": "Schema representing a Blender Python API operator definition",
+  "type": "object",
+  "properties": {
+    "bl_idname": {
+      "type": "string",
+      "description": "Operator identifier (e.g., object.transform_apply)",
+      "pattern": "^[a-z_]+\\.[a-z_]+$"
+    },
+    "bl_label": { "type": "string", "description": "Human-readable operator label" },
+    "bl_description": { "type": "string", "description": "Tooltip description shown in Blender UI" },
+    "bl_options": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["REGISTER", "UNDO", "BLOCKING", "MACRO", "GRAB_CURSOR", "PRESET", "INTERNAL"]
+      },
+      "description": "Operator behavior flags"
+    },
+    "poll": {
+      "type": "string",
+      "description": "Context poll method description (Python expression or docstring)"
+    },
+    "properties": {
+      "type": "array",
+      "description": "Operator properties exposed via RNA",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "type": { "type": "string", "enum": ["BoolProperty", "IntProperty", "FloatProperty", "StringProperty", "EnumProperty", "CollectionProperty"] },
+          "default": {},
+          "description": { "type": "string" }
+        }
+      }
+    }
+  },
+  "required": ["bl_idname", "bl_label"]
+}

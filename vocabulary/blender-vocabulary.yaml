@@ -1,0 +1,52 @@
+name: Blender Python API Vocabulary
+description: Key terms and concepts used in the Blender Python API (bpy) and addon development
+terms:
+  - term: bpy
+    definition: >-
+      The top-level Python module providing access to Blender's internal data, operators,
+      context, utilities, and application properties. The primary namespace for Blender scripting.
+  - term: Operator
+    definition: >-
+      A Python class (bpy.types.Operator) representing a reusable command that can be
+      executed from menus, panels, keyboard shortcuts, or scripts. Operators expose
+      properties and have execute(), invoke(), and poll() methods.
+  - term: Addon
+    definition: >-
+      A Python package or module extending Blender's functionality. Addons define operators,
+      panels, menus, and other UI components via register() and unregister() functions.
+  - term: RNA (RNA Network Architecture)
+    definition: >-
+      Blender's internal data model and property system. bpy.props types (BoolProperty,
+      IntProperty, etc.) use RNA to expose properties to Blender's UI and Python API.
+  - term: Mesh
+    definition: >-
+      A 3D object type in Blender consisting of vertices, edges, and faces. Accessible
+      via bpy.data.meshes and manipulable via the bmesh module.
+  - term: bmesh
+    definition: >-
+      A Python module providing low-level access to mesh data for creation and manipulation
+      of vertices, edges, and faces independent of Blender's edit mode.
+  - term: Context (bpy.context)
+    definition: >-
+      The current state of Blender's UI including active object, selected objects, scene,
+      space data, and region. Operators use context to determine their applicability via poll().
+  - term: Data (bpy.data)
+    definition: >-
+      The global Blender data block providing access to all datablocks: meshes, objects,
+      materials, scenes, cameras, lights, armatures, images, and more.
+  - term: Geometry Nodes
+    definition: >-
+      A node-based procedural modeling system in Blender enabling non-destructive
+      geometry manipulation via a visual programming interface, accessible via Python API.
+  - term: Cycles
+    definition: >-
+      Blender's physically-based path-tracing render engine supporting CPU and GPU rendering.
+      Render settings are accessible and configurable via the bpy Python API.
+  - term: EEVEE
+    definition: >-
+      Blender's real-time rasterization render engine providing fast interactive rendering
+      with PBR materials, screen-space effects, and volumetrics.
+  - term: Headless Mode
+    definition: >-
+      Running Blender via command-line without a GUI (blender --background) for batch
+      rendering, script execution, and automated pipeline processing.

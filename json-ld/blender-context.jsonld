@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "blender": "https://www.blender.org/ontology/",
+    "bpy": "https://docs.blender.org/api/current/",
+    "bl_idname": "blender:operatorId",
+    "bl_label": "name",
+    "bl_description": "description",
+    "bl_options": "blender:operatorOptions",
+    "blender_version_min": "blender:minimumVersion",
+    "tagline": "description",
+    "maintainer": "maintainer",
+    "license": "license",
+    "addon": "blender:addon",
+    "operator": "blender:operator",
+    "module": "blender:module"
+  }
+}

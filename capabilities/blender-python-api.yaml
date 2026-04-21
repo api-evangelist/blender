@@ -1,0 +1,47 @@
+name: Blender Python API Capability
+description: >-
+  Naftiko capability definition for the Blender Python API (bpy), documenting
+  key scripting capabilities for automation, addon development, and pipeline integration.
+version: 1.0.0
+capabilities:
+  - name: accessSceneData
+    description: Access and modify scene objects, materials, and properties via bpy.data and bpy.context
+    module: bpy.data
+    examples:
+      - "bpy.data.objects['Cube']"
+      - "bpy.context.active_object"
+  - name: executeOperator
+    description: Execute built-in or custom Blender operators via bpy.ops
+    module: bpy.ops
+    examples:
+      - "bpy.ops.object.transform_apply(scale=True)"
+      - "bpy.ops.render.render(write_still=True)"
+  - name: createCustomOperator
+    description: Define and register custom operators via bpy.types.Operator subclass
+    module: bpy.types
+  - name: modifyMesh
+    description: Create and edit mesh geometry at the vertex/edge/face level via bmesh
+    module: bmesh
+    examples:
+      - "bm = bmesh.new(); bm.from_mesh(mesh)"
+  - name: batchRender
+    description: Execute headless rendering via CLI and bpy.ops.render.render
+    module: bpy.ops.render
+    cli: "blender --background scene.blend --python render.py"
+  - name: importExport
+    description: Import and export 3D formats (glTF, FBX, OBJ, USD) via bpy.ops
+    module: bpy.ops
+    examples:
+      - "bpy.ops.export_scene.gltf(filepath='output.glb')"
+      - "bpy.ops.wm.usd_export(filepath='scene.usda')"
+  - name: registerAddon
+    description: Register and package Blender addons for the Extensions Platform
+    module: bpy.utils
+    examples:
+      - "bpy.utils.register_class(MyOperator)"
+      - "bpy.utils.unregister_class(MyOperator)"
+governance:
+  license: GPL-2.0-or-later
+  repository: https://github.com/blender/blender
+  governance: https://www.blender.org/foundation/
+  packageRegistry: https://extensions.blender.org

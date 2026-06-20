@@ -8,7 +8,7 @@ description: >-
   addon creation, enabling developers to extend Blender with custom functionality.
   The project is governed by the Blender Foundation and maintained at blender.org.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - 3D
   - Animation

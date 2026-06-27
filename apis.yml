@@ -59,9 +59,9 @@ apis:
         url: json-structure/blender-bpy-operator-structure.json
       - type: JSONLD
         url: json-ld/blender-context.jsonld
-      - type: Example
+      - type: Examples
         url: examples/blender-addon-manifest-example.json
-      - type: Example
+      - type: Examples
         url: examples/blender-bpy-operator-example.json
   - aid: blender:blender-extensions
     name: Blender Extensions Platform
@@ -113,7 +113,7 @@ common:
     url: https://extensions.blender.org
   - type: SpectralRules
     url: rules/blender-spectral-rules.yml
-  - type: NaftikoCapability
+  - type: X-NaftikoCapability
     url: capabilities/blender-python-api.yaml
   - type: Vocabulary
     url: vocabulary/blender-vocabulary.yaml

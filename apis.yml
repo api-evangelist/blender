@@ -127,8 +127,6 @@ common:
     url: https://extensions.blender.org
   - type: SpectralRules
     url: rules/blender-spectral-rules.yml
-  - type: X-NaftikoCapability
-    url: capabilities/blender-python-api.yaml
   - type: Vocabulary
     url: vocabulary/blender-vocabulary.yaml
   - type: Features

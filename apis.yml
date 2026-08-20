@@ -26,6 +26,15 @@ tags:
   - Animation
   - Game Development
   - Modeling
+  - Open-Source
+  - Python
+  - Rendering
+  - VFX
+tags_raw:
+  - 3D
+  - Animation
+  - Game Development
+  - Modeling
   - Open Source
   - Python
   - Rendering
@@ -47,6 +56,12 @@ apis:
       interpreter or through command-line batch rendering.
     humanURL: https://docs.blender.org/api/current/
     tags:
+      - Addons
+      - Automation
+      - Open-Source
+      - Python
+      - Scripting
+    tags_raw:
       - Addons
       - Automation
       - Open Source
@@ -84,6 +99,11 @@ apis:
       can publish addons with metadata via the extensions.blender.org manifest format.
     humanURL: https://extensions.blender.org
     tags:
+      - Addons
+      - Extensions
+      - Marketplace
+      - Open-Source
+    tags_raw:
       - Addons
       - Extensions
       - Marketplace

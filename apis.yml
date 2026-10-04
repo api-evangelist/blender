@@ -10,14 +10,18 @@ description: >-
 type: Index
 deliveryModel:
   model: unknown
-  open_source: false
+  license_evidence:
+    repo: blender/blender
+    spdx: NOASSERTION
+    stars: 20527
+  open_source: unknown
   commercial: false
   callable_host: false
   label: Delivery model not determined — needs a product licence on record
   confidence: low
   source:
-  - none
-  generated: '2026-08-28'
+  - repository-unlicensed
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: freemium
@@ -37,7 +41,7 @@ tags:
   - Animation
   - Game Development
   - Modeling
-  - Open-Source
+  - Open Source
   - Python
   - Rendering
   - VFX
@@ -50,6 +54,7 @@ tags_raw:
   - Python
   - Rendering
   - VFX
+  - Open-Source
 url: >-
   https://raw.githubusercontent.com/api-evangelist/blender/refs/heads/main/apis.yml
 created: '2024-01-01'
@@ -69,7 +74,7 @@ apis:
     tags:
       - Addons
       - Automation
-      - Open-Source
+      - Open Source
       - Python
       - Scripting
     tags_raw:
@@ -78,6 +83,7 @@ apis:
       - Open Source
       - Python
       - Scripting
+      - Open-Source
     properties:
       - type: Documentation
         url: https://docs.blender.org/api/current/
@@ -113,12 +119,13 @@ apis:
       - Addons
       - Extensions
       - Marketplace
-      - Open-Source
+      - Open Source
     tags_raw:
       - Addons
       - Extensions
       - Marketplace
       - Open Source
+      - Open-Source
     properties:
       - type: Documentation
         url: https://docs.blender.org/manual/en/latest/extensions/index.html

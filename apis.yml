@@ -132,6 +132,12 @@ apis:
       - type: Portal
         url: https://extensions.blender.org
 common:
+  - type: Plans
+    url: plans/blender-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/blender-rate-limits.yml
+  - type: FinOps
+    url: finops/blender-finops.yml
   - type: DomainSecurity
     url: security/blender-domain-security.yml
   - type: LinkedIn

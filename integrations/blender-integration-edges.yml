@@ -29,16 +29,40 @@ edges:
     detected: '2026-10-20'
   detected_by: sweep-official-clis.py
   first_seen: '2026-10-20'
+- partner_name: Khronos Group (members)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.khronos.org/members/list
+  category: graphics standards body membership
+  partner_tier: associate
+  contract_reference:
+    register: Khronos Group members list (khronos.org/members/list)
+    standard: Khronos Group
+    spec_file: null
+    role: khronos-member
+    registered_name: Blender Foundation
+    register_id: https://www.khronos.org/members/list
+    matched_domain: blender.org
+    matched_by: domain
+    signal_note: 'participation only: membership level is partner_tier, never counted'
+    detected_by: sweep-xr-graphics.py
+    detected: '2026-10-20'
+  detected_by: sweep-xr-graphics.py
+  first_seen: '2026-10-20'
 generated: '2026-10-20'
 method: searched
 source:
-- https://cdn.winget.microsoft.com/cache
-- https://formulae.brew.sh/api/cask.json
 - https://formulae.brew.sh/api/formula.json
-- https://github.com/ScoopInstaller/Extras
+- https://formulae.brew.sh/api/cask.json
+- https://cdn.winget.microsoft.com/cache
 - https://github.com/ScoopInstaller/Main
-- https://pypi.org/pypi
+- https://github.com/ScoopInstaller/Extras
 - https://registry.npmjs.org
+- https://pypi.org/pypi
 checked:
 - https://cdn.winget.microsoft.com/cache
 - https://formulae.brew.sh/api/cask.json
@@ -47,3 +71,8 @@ checked:
 - https://github.com/ScoopInstaller/Main
 - https://pypi.org/pypi
 - https://registry.npmjs.org
+- https://landscape.aousd.org/data/full.json
+- https://www.khronos.org/conformance/adopters/conformant-companies
+- https://www.khronos.org/conformance/adopters/conformant-products
+- https://www.khronos.org/conformance/adopters/file-format-adopters
+- https://www.khronos.org/members/list

@@ -1,4 +1,4 @@
-# Blender (blender)
+# Blender
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,110 +66,145 @@
 
 Blender is the free and open source 3D creation suite supporting the entirety of the 3D pipeline including modeling, rigging, animation, simulation, rendering, compositing, motion tracking, video editing, and game creation. Blender's Python API provides extensive scripting capabilities for automation, tool development, and addon creation, enabling developers to extend Blender with custom functionality. The project is governed by the Blender Foundation and maintained at blender.org.
 
-**URL:** [https://www.blender.org](https://www.blender.org)
+**Areas:** 3D · Animation · Game Development · Modeling · Open Source · Python · Rendering · VFX
 
-**License:** [GPL-2.0-or-later](https://www.blender.org/about/license/)
+## Blender on APIs.io
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+Everything profiled for Blender is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/blender/](https://apis.io/providers/blender/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (2)
 
- - 3D, Animation, Game Development, Modeling, Open Source, Python, Rendering, VFX
+- [Blender Python API](https://apis.io/apis/blender/blender-python-api/) — The Blender Python API (bpy) provides Python access to Blender's internal data, operators, and UI components. It enables developers to automate tasks,…
+- [Blender Extensions Platform](https://apis.io/apis/blender/blender-extensions/) — The Blender Extensions Platform (extensions.blender.org) provides a curated repository of addons, themes, and node presets for Blender. The platform…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2024-01-01
-- **Modified:** 2026-04-21
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### JSON Schema (2)
 
-### Blender Python API
-The Blender Python API (bpy) provides Python access to Blender's internal data, operators, and UI components. It enables developers to automate tasks, create addons, build custom tools, manipulate scene data, interact with the render pipeline, and extend Blender's interface.
+The data models the API reads and writes.
 
-**Human URL:** [https://docs.blender.org/api/current/](https://docs.blender.org/api/current/)
+- [Blender Addon Manifest](https://apis.io/schemas/blender/blender-addon-manifest/)
+- [Blender bpy Operator](https://apis.io/schemas/blender/blender-bpy-operator/)
 
-#### Tags:
+#### JSON Structure (2)
 
- - Addons, Automation, Open Source, Python, Scripting
+Data models expressed in JSON Structure.
 
-#### Properties
+- [Blender Addon Manifest Structure](https://apis.io/json-structure/blender/blender-addon-manifest-structure/)
+- [Blender Bpy Operator Structure](https://apis.io/json-structure/blender/blender-bpy-operator-structure/)
 
-- [Documentation](https://docs.blender.org/api/current/)
-- [GitHub](https://github.com/blender/blender)
-- [Getting Started](https://docs.blender.org/api/current/info_quickstart.html)
-- [Tutorials](https://docs.blender.org/api/current/info_tips_and_tricks.html)
-- [JSON Schema - Addon Manifest](json-schema/blender-addon-manifest-schema.json)
-- [JSON Schema - bpy Operator](json-schema/blender-bpy-operator-schema.json)
-- [JSON-LD Context](json-ld/blender-context.jsonld)
-- [Example - Addon Manifest](examples/blender-addon-manifest-example.json)
-- [Example - bpy Operator](examples/blender-bpy-operator-example.json)
+#### JSON-LD (1)
 
-### Blender Extensions Platform
-The Blender Extensions Platform (extensions.blender.org) provides a curated repository of addons, themes, and node presets for Blender. Developers can publish addons with structured metadata and versioning.
+Linked-data contexts for the provider's vocabulary.
 
-**Human URL:** [https://extensions.blender.org](https://extensions.blender.org)
+- [Blender Context](https://apis.io/jsonld/blender/blender-context/)
 
-#### Tags:
+#### Vocabulary (1)
 
- - Addons, Extensions, Marketplace, Open Source
+The provider's domain terms, defined.
 
-#### Properties
+- [Blender Python API Vocabulary](https://apis.io/vocabularies/blender/blender-vocabulary/)
 
-- [Documentation](https://docs.blender.org/manual/en/latest/extensions/index.html)
-- [Portal](https://extensions.blender.org)
+#### Examples (2)
 
-## Common Properties
+Example requests and responses.
+
+- [Blender Addon Manifest Example](https://apis.io/examples/blender/blender-addon-manifest-example/)
+- [Blender Bpy Operator Example](https://apis.io/examples/blender/blender-bpy-operator-example/)
+
+#### Governance rules (2)
+
+Spectral rulesets for the provider's contracts.
+
+- [Blender — jsonschema rules](https://apis.io/rules/blender/blender-jsonschema-spectral-rules/)
+- [Blender API Rules](https://apis.io/rules/blender/blender-spectral-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Blender Domain Security](https://apis.io/security/blender/blender-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Blender Plans Pricing](https://apis.io/plans/blender/blender-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Blender Rate Limits](https://apis.io/rate-limits/blender/blender-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Blender Finops](https://apis.io/finops/blender/blender-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.blender.org/)
 - [Documentation](https://docs.blender.org/)
-- [Getting Started](https://docs.blender.org/api/current/info_quickstart.html)
-- [Community](https://www.blender.org/community/)
+- [Getting started](https://docs.blender.org/api/current/info_quickstart.html)
 - [Support](https://www.blender.org/support/)
-- [GitHub Organization](https://github.com/blender)
-- [GitHub](https://github.com/blender/blender)
 - [Blog](https://www.blender.org/news/)
-- [Training](https://www.blender.org/training/)
-- [FAQ](https://www.blender.org/support/faq/)
-- [Release Notes](https://developer.blender.org/docs/release_notes/)
-- [Package Registry](https://extensions.blender.org)
-- [Spectral Rules](rules/blender-spectral-rules.yml)
-- [Naftiko Capability](capabilities/blender-python-api.yaml)
-- [Vocabulary](vocabulary/blender-vocabulary.yaml)
+- [GitHub](https://github.com/blender)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Python Scripting (bpy) | The bpy module provides access to Blender's internal data model, allowing Python scripts to create, read, update, and delete scene objects, materials, animations, constraints, and render settings. |
-| Operator Framework | Blender's operator system allows Python developers to create custom operators (commands) accessible from menus, panels, keyboard shortcuts, and scripts. |
-| Addon Development | Blender addons are Python packages extending functionality across modeling, rigging, animation, rendering, import/export, and UI. Distributed via the Extensions Platform or bundled directly. |
-| Node Groups and Geometry Nodes | Geometry Nodes and Shader Nodes provide visual programming for procedural modeling and materials, scriptable via the Python API. |
-| Render Pipeline Integration | Python API integrates with Blender's Cycles and EEVEE render engines for batch rendering, render farm integration, and custom render pipeline control. |
-| Command-Line Interface | Blender can be invoked headlessly via CLI for batch rendering, script execution, and pipeline automation without a GUI. |
-| Asset Library System | Blender 3.x+ includes an asset library system with Python API support for managing and accessing reusable 3D assets across projects. |
+**Kin Score 27.8** — thin · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 29.2 |
+| Contract governance | 23.5 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 7.9 |
 
-| Name | Description |
-|------|-------------|
-| Pipeline Automation | VFX and animation studios automate Blender production pipelines using Python scripts for batch rendering, asset processing, and scene assembly. |
-| Addon Development | Developers create custom tools and plugins extending Blender's functionality for modeling, rigging, simulation, and export workflows. |
-| Headless Rendering | Blender is used for headless server-side rendering via CLI and Python scripts in cloud rendering pipelines and automated content generation workflows. |
-| Procedural Content Generation | Python scripts and Geometry Nodes enable procedural generation of 3D assets for games, VFX, and architectural visualization. |
-| Education and Research | Universities, research labs, and educators use Blender's Python API for 3D visualization, scientific rendering, and computer graphics research. |
+**Agent readiness 1.9** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | documented (partial credit) |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Cycles X Render Engine | Blender's built-in path-tracing render engine with Python API access for controlling render settings, passes, and denoising. |
-| USD (Universal Scene Description) | Blender supports import and export of Pixar USD scenes, enabling pipeline integration with VFX and game development workflows. |
-| glTF 2.0 | Blender has built-in glTF 2.0 import/export support with Python API access, enabling web, AR/VR, and game engine pipelines. |
-| OpenVDB | Blender supports OpenVDB for volumetric simulation and rendering, with Python API access to volume data and simulation parameters. |
-| ACES Color Management | Blender integrates with OpenColorIO for ACES and professional color pipeline support in VFX productions. |
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/blender/](https://apis.io/providers/blender/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** kin@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Blender: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/blender/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
